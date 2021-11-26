@@ -1,0 +1,6 @@
+div {
+    background-color: rgb(120, 204, 120);
+  }
+div.head {
+    opacity: 0.4;
+}
