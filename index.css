@@ -8,11 +8,12 @@ div.head {
 }
 div.h1 {
   font-style: oblique;
-    opacity: 0.6;
-    border-radius: 50px;
-background: linear-gradient(145deg, #a57878, #c48e8e);
-box-shadow:  26px 26px 52px #584040,
-             -26px -26px 52px #ffcaca;
+  background: rgba( 171, 146, 146, 0.45 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 17.5px );
+  -webkit-backdrop-filter: blur( 17.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 div.img {
   width: 80%;
@@ -50,7 +51,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
 div.button {
   width: 100px;
-  height: 100px;
+  height: 60px;
   position: relative;
   animation-name: hehe;
   animation-duration: 4s;
