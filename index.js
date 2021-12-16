@@ -1,4 +1,4 @@
-const tf = require(`@tensorflow/tfjs`);
+{const tf = require(`@tensorflow/tfjs`);
 function CopyFunction() {
     var releases = "https://github.com/GrowingUnderTheTree/lagscream-spigot-plugin/releases";
   
@@ -27,4 +27,14 @@ function morestuffs() {
   
   // Render a barchart on that surface
   tfvis.render.barchart(surface, data, {});
+}
+}
+
+function what() {
+  const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
+
+const renderer = new THREE.WebGLRenderer();
+renderer.setSize( window.innerWidth, window.innerHeight );
+document.body.appendChild( renderer.domElement );
 }
