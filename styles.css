@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+
+h1 {
+    text-align: center;
+    color:blueviolet;
+    font-family: 'Shizuru', 'cursive';
+}
+
+.p1 {
+    font-size: large;
+    text-align: center;
+    color:blueviolet;
+    font-family: 'Shizuru', 'cursive';
+    margin: auto;
+}
+
+body {
+    background: rgb(2,0,36);
+background: linear-gradient(145deg, #ddbbdb, #ba9eb9);
+}
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+.p2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
